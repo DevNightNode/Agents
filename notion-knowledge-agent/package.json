@@ -1,0 +1,20 @@
+{
+  "name": "notion-knowledge-agent",
+  "version": "1.0.0",
+  "description": "Q&A agent over a Notion workspace using OpenAI function calling",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@openai/agents": "0.1.0",
+    "zod": "3.25.76",
+    "@notionhq/client": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}

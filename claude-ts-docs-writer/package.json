@@ -1,0 +1,28 @@
+{
+  "name": "claude-ts-docs-writer",
+  "version": "1.0.0",
+  "description": "TypeScript Claude Agent SDK agent that reads a codebase and writes/updates API docs",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.1.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "claude",
+    "agent",
+    "documentation",
+    "typescript"
+  ],
+  "author": "Claude Agent SDK Team",
+  "license": "MIT"
+}

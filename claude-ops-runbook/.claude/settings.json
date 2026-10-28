@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-ops-runbook__query_metrics",
+      "mcp__claude-ops-runbook__get_incident",
+      "mcp__claude-ops-runbook__acknowledge_incident",
+      "mcp__claude-ops-runbook__restart_service",
+      "Read",
+      "Grep"
+    ],
+    "deny": []
+  }
+}

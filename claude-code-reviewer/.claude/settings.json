@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Bash",
+      "mcp__code-reviewer__get_changed_files",
+      "mcp__code-reviewer__post_review",
+      "mcp__code-reviewer__run_linter"
+    ],
+    "deny": []
+  }
+}

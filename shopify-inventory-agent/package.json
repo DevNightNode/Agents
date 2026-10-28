@@ -1,0 +1,32 @@
+{
+  "name": "shopify-inventory-agent",
+  "version": "1.0.0",
+  "description": "Shopify store agent that checks inventory levels, updates product prices, and creates discount codes via the Admin API",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "0.3.57",
+    "@langchain/langgraph": "0.2.74",
+    "@langchain/openai": "0.5.11",
+    "langchain": "0.3.27",
+    "zod": "3.25.76",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.4",
+    "tsx": "4.16.2"
+  },
+  "keywords": [
+    "shopify",
+    "inventory",
+    "agent",
+    "langchain"
+  ],
+  "author": "Shopify Agent Team",
+  "license": "MIT"
+}
